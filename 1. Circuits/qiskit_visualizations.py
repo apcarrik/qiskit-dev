@@ -48,6 +48,7 @@ plot_state_paulivec(psi,
                     color = ['purple', 'orange', 'green']).show()
 plot_bloch_multivector(psi,
                        title = "My Bloch Spheres").show()
+# note: there is no vector in block multivector since system is in an entangled state
 
 ### Plotting Bloch Vectors
 from qiskit.visualization import plot_bloch_vector
